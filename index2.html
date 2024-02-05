@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijit-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+            background-color: rgb(14, 70, 70);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(31, 132, 132);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: aquamarine;
+            font-size: 1.04rem;
+        }
+
+
+        main hr {
+            margin: 20px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+        }
+
+        .leftSection .buttons {
+            padding: 25px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: rgb(109, 184, 159);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .leftSection .buttons:hover {
+            color: rgb(37, 192, 140);
+            font-size: 5rem;
+        }
+
+        .rightSection img {
+            width: 70%;
+            margin: 20px 40px;
+        }
+
+        .purple {
+            color: rgb(89, 193, 222);
+        }
+
+        .text-gray {
+            color: aquamarine;
+        }
+
+        #element {
+            color: rgb(89, 193, 222);
+        }
+
+        .secondSection {
+            max-width: 60vw;
+            margin: auto;
+            height: 65vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.5rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 70vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 125px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-tittle {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: aquamarine;
+            width: 150px;
+            font-size: 10px;
+
+
+        }
+
+        footer {
+            background-color: rgb(31, 132, 132);
+        }
+
+        footer :hover {
+            color: aquamarine;
+            font-size: 1.04rem;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 70px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: rgb(5, 34, 39);
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Abhijit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/"> Services</a></li>
+                    <li><a
+                            href="/">Projects</a>
+                    </li>
+                    <li><a href="mailto:ahadawale2812@gmail.com">Contact Me</a></li>
+
+
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Abhijit</span>
+                <div>
+                    and I am a passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn" id="resumeButton"><a
+                            href="https://drive.google.com/file/d/1OFPcrZkXo7eDNT8OMprCaSQyeIUywHQa/view?usp=drivesdk"
+                            target="_blank" rel="noopener noreferrer">Resume</a></button>
+
+                    <button class="btn" id="GitHuButton"><a href="https://github.com/abhijit2812" target="_blank"
+                            rel="noopener noreferrer">GitHub</a></button>
+
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/img0.jpg">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Project work</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="images/img3.png">
+                    <div class="vertical-tittle">
+                        Grocery Management Website
+                    </div>
+                    <div class="vertical-desc">
+                        The purpose of the Grocery Store Management System is to automate the existing manual system
+                        with the help of computerized equipment and full-fledged computer software, fulfilling their
+                        requirements,
+                        so that their valuable data/information are often stored for an extended period with easy
+                        accessing .
+                    </div>
+                </div>
+
+
+
+                <div class="vertical">
+                    <img class="image-top" src="images/img4.jpg">
+                    <div class="vertical-tittle">
+                        Online Camera Shopping Website
+                    </div>
+                    <div class="vertical-desc">
+                        The Online Camera Shopping website project is new concept for sell camera product online with
+                        online payment option.
+                        The online shopping website developed for a selling product online using internet in all over
+                        world.
+                    </div>
+                </div>
+
+
+
+                <div class="vertical">
+                    <img class="image-top" src="images/img8.png">
+                    <div class="vertical-tittle">
+                        Encryption of Medical shop Website
+                    </div>
+                    <div class="vertical-desc">
+                        This technology can effectively solve the collection, statistics, and integration of patient
+                        treatment information, which can be summarized into a unified, shared,
+                        and interconnected electronic medical record management system to realize the collection of
+                        patient treatment information in the whole process. </div>
+                </div>
+
+
+
+                <div class="vertical">
+                    <img class="image-top" src="images/img9.jpg">
+                    <div class="vertical-tittle">
+                        flappy bird game
+                    </div>
+                    <div class="vertical-desc">
+                        Recreating popular arcade game 'Flappy Bird'using pygame module,to get familiar with drawing
+                        pixels,image processing,etc.
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Abhijit's Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li> Projects</li>
+                    <li>About</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div class="footer-third">
+                <ul>
+                    <li><a href="mailto:ahadawale2812@gmail.com">Email ID</a></li>
+                    <li><a href="https://www.instagram.com/abhijit_2812?utm_source=qr&igsh=MXc4NnRodDB4YmxjaA==">Instagram</a></li>
+                    <li><a href="https://github.com/abhijit2812">Github</a></li>
+                    <li><a
+                            href="https://www.linkedin.com/in/abhijit-hadawale-382ab8283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li></li>
+                    <li>Terms of Services</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.AbhijitsPortfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>I am a student,', 'a learner', 'and web developer.</i>'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
